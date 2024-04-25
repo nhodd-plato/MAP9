@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/EmployeeDetails/Page_Or
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_OrangeHRM/button_Login'))
 
-//WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/a_Employee List'))
+WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/a_Employee List'))
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/i_add'))
 
