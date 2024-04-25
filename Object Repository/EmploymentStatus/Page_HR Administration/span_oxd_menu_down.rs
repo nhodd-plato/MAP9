@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_oxd_menu_down</name>
+   <tag></tag>
+   <elementGuidId>d2b12031-0da2-47bf-a908-028ee2ddd60e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.caret.material-icons</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='top_level_menu_item_menu_item_102']/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Job oxd_menu_down&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8bda7ea0-b779-4f84-97fe-70358fccd1cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>children &amp;&amp; !expandIcon</value>
+      <webElementGuid>aa9951b0-0508-448a-9a19-5dd11983004d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caret material-icons</value>
+      <webElementGuid>0ce61ac6-f1fa-4d3c-bd88-cec29af35b7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>oxd_menu_down</value>
+      <webElementGuid>3061b835-8261-4a9b-bd24-876ce8288cdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top_level_menu_item_menu_item_102&quot;)/a[@class=&quot;top-level-menu-item&quot;]/span[@class=&quot;caret material-icons&quot;]</value>
+      <webElementGuid>59a26f61-ad5a-4f12-bb62-c3828c2ddb19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='top_level_menu_item_menu_item_102']/a/span</value>
+      <webElementGuid>e039d433-5dc5-415c-8919-6171f1ea1124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage User Roles'])[1]/following::span[1]</value>
+      <webElementGuid>77726d60-c3c5-49f0-8faf-ac8fe5b843ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Salary Components'])[1]/preceding::span[1]</value>
+      <webElementGuid>8c6b52d8-4fc5-4960-8f6e-d85692f53b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Job Titles'])[1]/preceding::span[1]</value>
+      <webElementGuid>c7bbf0eb-3bab-43bf-a7f9-552c4498ac99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='oxd_menu_down']/parent::*</value>
+      <webElementGuid>8489eab4-e6cf-4605-ab91-f73bfde9864e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//top-level-menu-item[3]/div/a/span</value>
+      <webElementGuid>adb4247e-4df3-4105-8308-e34aa43c5e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'oxd_menu_down' or . = 'oxd_menu_down')]</value>
+      <webElementGuid>835ca552-3aa1-4e6b-a6d7-1daaf444c534</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

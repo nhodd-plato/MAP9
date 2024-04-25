@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Test3</name>
+   <tag></tag>
+   <elementGuidId>0ba1a67f-5f46-4cce-a9b0-385e79745ee0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td[name=&quot;listField.name&quot;] > ng-include > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='payGradesDiv']/crud-panel/div/div/list/table/tbody/tr[2]/td[2]/ng-include/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Test3&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c1a7bd9e-a352-481d-a4d7-798498aa7b9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test3</value>
+      <webElementGuid>73b73175-90af-422c-97d7-7c9954171f84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;payGradesDiv&quot;)/crud-panel[1]/div[@class=&quot;form-div&quot;]/div[@class=&quot;list-container&quot;]/list[1]/table[@class=&quot;highlight bordered&quot;]/tbody[1]/tr[2]/td[2]/ng-include[1]/span[1]</value>
+      <webElementGuid>398c058d-0048-44ab-8c5c-81d0482843dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='payGradesDiv']/crud-panel/div/div/list/table/tbody/tr[2]/td[2]/ng-include/span</value>
+      <webElementGuid>bb32ffb6-8f57-4251-8d39-734736a6ef1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ohrm_edit'])[1]/following::span[1]</value>
+      <webElementGuid>720b2590-ce25-45cb-94b9-0171a7eb59ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test4'])[1]/following::span[2]</value>
+      <webElementGuid>6d32f898-e37d-4a93-af76-4036591f9414</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ohrm_edit'])[2]/preceding::span[2]</value>
+      <webElementGuid>81e0e1f7-7cc6-45fb-ac2a-7263b9c3c194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chief Executive Officer (C.E.O)'])[1]/preceding::span[2]</value>
+      <webElementGuid>b6fc2c87-04f6-4670-811c-74ff234c12fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Test3']/parent::*</value>
+      <webElementGuid>85a99f8d-dbb4-48fd-8923-4900752d5722</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]/ng-include/span</value>
+      <webElementGuid>0e58515c-0ae9-4eb4-805b-bc41cf94028f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Test3' or . = 'Test3')]</value>
+      <webElementGuid>47d9cd27-3b54-41c7-98ad-baeb1f362413</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

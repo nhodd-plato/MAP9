@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B0BBC49073EF5D954CF2B50E10B6AC30",
+  "keywordClasses": [
+    {
+      "name": "text.generator.RandomString",
+      "keywordMethods": [
+        {
+          "name": "createRandomString",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

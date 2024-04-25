@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Minimum Salary</name>
+   <tag></tag>
+   <elementGuidId>adb91037-6d12-4995-bf30-4b690249e078</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal1']/form/div/div/materializecss-decorator[2]/div/sf-decorator/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>materializecss-decorator:nth-of-type(2) > div.schema-form-section.row > sf-decorator > div.input-field.col.s12.m12.l12 > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#modal1 >> internal:text=&quot;Minimum Salary&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>680942bb-af01-4285-88dc-232b938a1169</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>minSalary</value>
+      <webElementGuid>2dcd6a37-46b0-4839-8a5b-6ca299dbd748</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!form.hideLabel</value>
+      <webElementGuid>b69816be-bbac-4d4f-b5ed-18a761e78faf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Minimum Salary</value>
+      <webElementGuid>3bdcfb7b-5291-47c6-8e97-0843e21785b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal1&quot;)/form[@class=&quot;ng-valid ng-valid-schema-form ng-valid-numeric-positive ng-valid-max ng-dirty ng-valid-parse&quot;]/div[@class=&quot;modal-content&quot;]/div[1]/materializecss-decorator[2]/div[@class=&quot;schema-form-section row&quot;]/sf-decorator[1]/div[@class=&quot;input-field col s12 m12 l12&quot;]/label[1]</value>
+      <webElementGuid>30ecf8bb-546f-48da-895a-65142e80425c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal1']/form/div/div/materializecss-decorator[2]/div/sf-decorator/div/label</value>
+      <webElementGuid>3b6a6c27-2d77-46f4-872f-b1b2db20ff8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::label[1]</value>
+      <webElementGuid>be00c54d-f64c-4557-9750-673924fea389</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Salary'])[2]/preceding::label[1]</value>
+      <webElementGuid>86b7a42f-b9d7-43d4-9747-a1e13378c091</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//materializecss-decorator[2]/div/sf-decorator/div/label</value>
+      <webElementGuid>106be7af-f565-463b-b1a8-9a1434426db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Minimum Salary' or . = 'Minimum Salary')]</value>
+      <webElementGuid>94b6c61d-ce3e-48ab-9a79-6936c0eaa6d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>currencyDropDown</name>
+   <tag></tag>
+   <elementGuidId>d06ebc1e-4c8e-487d-8c43-454fd3fed114</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;currency_id_inputfileddiv&quot;]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.selected > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//*[@id=&quot;currency_id_inputfileddiv&quot;]/div/span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e80c4331-ce4c-440a-8edb-f67011314966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-- Select --</value>
+      <webElementGuid>21ca611f-aa72-4e4c-a578-ac9e3aa90ab3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select-options-c591f712-e2ea-9229-67be-f2eb9c47aa27&quot;)/li[@class=&quot;selected&quot;]/span[1]</value>
+      <webElementGuid>dca6d7d2-a6cd-41ba-9b3c-680da916bd3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='select-options-c591f712-e2ea-9229-67be-f2eb9c47aa27']/li/span</value>
+      <webElementGuid>1ad8c786-c032-45f4-b3cc-bec28948e0d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/following::span[1]</value>
+      <webElementGuid>2ca7dc85-b7f8-40e0-b20e-934277ab2466</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Currency'])[1]/following::span[2]</value>
+      <webElementGuid>fd5b002d-7877-48be-b905-7e871c235c88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AFN - Afghanistan Afghani'])[1]/preceding::span[1]</value>
+      <webElementGuid>5d400052-8177-4e07-b761-f627de37e595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALL - Albanian Lek'])[1]/preceding::span[2]</value>
+      <webElementGuid>88c0dc5b-ad76-44a3-9c3c-93e5f6f0f551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='-- Select --']/parent::*</value>
+      <webElementGuid>abca8eef-09f1-4671-904d-ff1c5ea57da1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//sf-decorator/div/div/ul/li/span</value>
+      <webElementGuid>aa3096b3-b191-4d0a-948f-c7c23e9a21f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '-- Select --' or . = '-- Select --')]</value>
+      <webElementGuid>d11ad173-74ba-41e0-809b-a9acc8d60d7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

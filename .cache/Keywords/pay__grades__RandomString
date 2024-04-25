@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "FED5608C5CF56A4DF881FD5150EA2265",
+  "keywordClasses": [
+    {
+      "name": "pay.grades.RandomString",
+      "keywordMethods": [
+        {
+          "name": "createRandomString",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
