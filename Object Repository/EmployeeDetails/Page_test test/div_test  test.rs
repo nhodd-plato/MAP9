@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_test  test</name>
+   <tag></tag>
+   <elementGuidId>d9790dd2-6a71-4580-99a5-a883e53da301</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueDashboardWidget37']/div/div/div[2]/div[2]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.emp-name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;test test&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3d6a4555-bedf-4c7b-bc70-7407494afbcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>emp-name</value>
+      <webElementGuid>5f70643e-11ed-4a9f-9894-e03407f3ee1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>test  test</value>
+      <webElementGuid>f7279c27-1f7d-422b-ae17-8501aa4e02a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueDashboardWidget37&quot;)/div[@class=&quot;dashboard-widget-container&quot;]/div[@class=&quot;dashboard-widget action-center-widget&quot;]/div[@class=&quot;dashboard-widget-body&quot;]/div[@class=&quot;oxd-grid-2&quot;]/div[@class=&quot;oxd-grid-item&quot;]/div[@class=&quot;employee-details&quot;]/div[@class=&quot;emp-name&quot;]</value>
+      <webElementGuid>9bacaf2c-5f6e-41bf-9502-cc7aac15c602</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueDashboardWidget37']/div/div/div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>337436fd-0f20-428b-bb49-2de8c5edb2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[3]/following::div[11]</value>
+      <webElementGuid>5a214d57-2bdb-4749-b2e0-6a56a60b5ce4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/following::div[14]</value>
+      <webElementGuid>9ffc525e-5859-42e9-a850-68511b661291</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Canadian Development Center - Canada'])[1]/preceding::div[1]</value>
+      <webElementGuid>2a1fb9a7-9e34-499a-a058-9f94acd86dc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Info'])[1]/preceding::div[3]</value>
+      <webElementGuid>d9c85300-2e4e-4e28-bfd4-0f9553119c15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>2f15c5b4-7918-4f67-a243-3b74321cf1aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'test  test' or . = 'test  test')]</value>
+      <webElementGuid>71f993a5-fe79-46a6-a1e0-735baae2d1cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
