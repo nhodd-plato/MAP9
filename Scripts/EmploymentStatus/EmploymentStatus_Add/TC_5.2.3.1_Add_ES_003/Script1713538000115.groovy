@@ -26,7 +26,7 @@ WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/
 
 WebUI.setEncryptedText(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/input_Login_txtPassword'), 'iOv+rK7xq3jhOvWTekEqcg==')
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
 
