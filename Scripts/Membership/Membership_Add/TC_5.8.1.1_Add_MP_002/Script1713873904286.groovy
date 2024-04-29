@@ -18,15 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
-
-WebUI.setText(findTestObject('Object Repository/Membership/Page_OrangeHRM/input_Login_txtUsername'), username)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Membership/Page_OrangeHRM/input_Login_txtPassword'), password)
-
-WebUI.click(findTestObject('Object Repository/Membership/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_More  more_vert'))
 
@@ -49,6 +40,4 @@ String actualText = WebUI.getText(findTestObject('Object Repository/Membership/P
 if (randomText != actualText) {
     KeywordUtil.markErrorAndStop('ERROR: Membership was not saved')
 }
-
-WebUI.closeBrowser()
 

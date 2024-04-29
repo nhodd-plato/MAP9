@@ -18,15 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
-
-WebUI.setText(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/input_Login_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/input_Login_txtPassword'), 'iOv+rK7xq3jhOvWTekEqcg==')
-
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/span_HR Administration'))
 
@@ -57,6 +48,4 @@ WebUI.setText(findTestObject('Object Repository/PayGrade/Page_Job/input_Minimum 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/a_Save'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/PayGrade/Page_Job/div_Successfully Saved'), 0)
-
-WebUI.closeBrowser()
 

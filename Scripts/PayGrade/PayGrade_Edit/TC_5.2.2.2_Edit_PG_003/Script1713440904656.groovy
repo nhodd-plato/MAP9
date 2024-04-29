@@ -21,15 +21,6 @@ String currency = "Australian Dollar"
 String minVal = "400,000.00"
 String maxVal = "1,000,000.00"
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
-
-WebUI.setText(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/input_Login_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/input_Login_txtPassword'), 'iOv+rK7xq3jhOvWTekEqcg==')
-
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/span_HR Administration'))
 
@@ -44,5 +35,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/PayGrade/Page_Job/expe
 WebUI.verifyElementText(findTestObject('Object Repository/PayGrade/Page_Job/expected_min_currency_400,000.00'), minVal, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/PayGrade/Page_Job/expected_max_currency_1,000,000.00'), maxVal, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()

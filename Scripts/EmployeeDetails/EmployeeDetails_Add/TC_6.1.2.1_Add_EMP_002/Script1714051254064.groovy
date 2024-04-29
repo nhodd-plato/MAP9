@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/EmployeeDetails/Page_OrangeHRM/input_Login_txtUsername'), 'Admin')
@@ -33,9 +35,9 @@ WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Mana
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/button_Next'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/span_Required'),0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/span_Required'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/span_Required'),0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/span_Required'), 0)
 
 WebUI.closeBrowser()
 

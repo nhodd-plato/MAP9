@@ -18,15 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
-
-WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/input_Login_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/input_Login_txtPassword'), 'iOv+rK7xq3jhOvWTekEqcg==')
-
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
 
@@ -51,5 +42,3 @@ System.out.println("TEXT: ")
 if(actualText != randomText) {
 	KeywordUtil.markFailed("ERROR: Data is not populated")
 }
-
-WebUI.closeBrowser()

@@ -17,15 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
-
-WebUI.setText(findTestObject('Object Repository/Membership/Page_OrangeHRM/input_Login_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Membership/Page_OrangeHRM/input_Login_txtPassword'), 'iOv+rK7xq3jhOvWTekEqcg==')
-
-WebUI.click(findTestObject('Object Repository/Membership/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_More  more_vert'))
 
@@ -40,5 +31,3 @@ WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/lab
 WebUI.setText(findTestObject('Object Repository/Membership/Page_Qualifications/input_Add Membership_name'), 'Gym Membership')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Membership/Page_Qualifications/span_Already exists'),0)
-
-WebUI.closeBrowser()

@@ -20,16 +20,6 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String expectedText = "Edit Employment Status"
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
-
-WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/input_Login_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/input_Login_txtPassword'), 'iOv+rK7xq3jhOvWTekEqcg==')
-
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_OrangeHRM/button_Login'))
-
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Job oxd_menu_down'))
@@ -51,5 +41,3 @@ String actualText = WebUI.getText(findTestObject('Object Repository/EmploymentSt
 if(actualText != expectedText) {
 	KeywordUtil.markFailed("ERROR: Edit Employment Status modal is not displayed")
 }
-
-WebUI.closeBrowser()
