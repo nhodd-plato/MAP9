@@ -26,6 +26,8 @@ WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administr
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Manage Employment Status'))
 
+WebUI.takeScreenshotAsCheckpoint('Employment Status')
+
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/h4_Add Employment Status'), 0)

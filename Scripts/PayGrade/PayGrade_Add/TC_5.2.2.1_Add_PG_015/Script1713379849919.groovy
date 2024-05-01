@@ -24,6 +24,8 @@ WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/sp
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/a_Manage Pay Grades'))
 
+WebUI.takeScreenshotAsCheckpoint('Pay Grade')
+
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/i_add'))
 
 randomText = CustomKeywords.'text.generator.RandomString.createRandomString'()
