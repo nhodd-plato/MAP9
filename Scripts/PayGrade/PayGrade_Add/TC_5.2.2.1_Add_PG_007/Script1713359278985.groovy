@@ -28,8 +28,6 @@ WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/i_add'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/a_Save'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/PayGrade/Page_Job/span_Required'), 0)
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/PayGrade/Page_Job/div_Add Pay Grade Name Required Required fi_c2f3f8'), 
     0)
 

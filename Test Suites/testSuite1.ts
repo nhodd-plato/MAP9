@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>testSuite</name>
+   <name>testSuite1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>45</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>61e30f84-22b0-48a2-8aa2-b16881a516c6</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>cb840996-1188-4549-a4d3-82c530a75cbc</testSuiteGuid>
    <testCaseLink>
-      <guid>b3ac7632-c754-4f8a-8839-346ad9d724b8</guid>
+      <guid>12a362f5-a743-4fb9-839f-28c910f6893f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EmployeeDetails/EmployeeDetails_Add/TC_6.1.2.1_Add_EMP_002</testCaseId>
+      <testCaseId>Test Cases/EmploymentStatus/EmploymentStatus_Add/TC_5.2.3.1_Add_ES_002</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

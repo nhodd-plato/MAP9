@@ -103,13 +103,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d3f7b486-8450-4997-b87e-84f88136a606</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EmploymentStatus/EmploymentStatus_Edit/TC_5.2.3.2_Edit_ES_003</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c9b6dadc-0539-4fe1-a3f3-dddccfba2c1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

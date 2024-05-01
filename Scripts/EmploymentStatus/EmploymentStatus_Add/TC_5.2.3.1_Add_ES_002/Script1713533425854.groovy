@@ -16,10 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-String expectedText = "Add Employment Status"
-
+String expectedText = 'Add Employment Status'
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
 
@@ -29,7 +28,5 @@ WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administr
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/h4_Add Employment Status'),0)
-
-
+WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/h4_Add Employment Status'), 0)
 

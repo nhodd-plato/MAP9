@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>269f684e-f7be-4c82-9624-8599203635f9</testSuiteGuid>
    <testCaseLink>
-      <guid>802d085f-c391-48e4-9010-405661491a03</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Orange_HRM_Login_SpyWeb</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4c6618f8-2224-484a-8eeb-5493e96b07e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

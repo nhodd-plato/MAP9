@@ -21,6 +21,7 @@ String currency = "Australian Dollar"
 String minVal = "400,000.00"
 String maxVal = "1,000,000.00"
 
+//Chief Executive Officer has to be the first in the list for this to work
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/span_HR Administration'))
 
