@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Pay Grade Name Required</name>
+   <tag></tag>
+   <elementGuidId>95cfa4fc-b141-4d36-a453-432e057ccb39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#modal1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Add Pay Grade Name* Required* Required fieldSave Cancel&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f00240c7-35c7-4201-893d-d96c1f5ac14e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modal1</value>
+      <webElementGuid>8a3cb5a3-e333-48a7-9b90-c02e250a8daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal modal-fixed-footer open</value>
+      <webElementGuid>15f01572-01ce-42eb-a3c4-4f4d2d468837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Pay Grade Name* Required* Required fieldSave Cancel</value>
+      <webElementGuid>78a61300-2748-4eac-bb0d-efe896c16169</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal1&quot;)</value>
+      <webElementGuid>1900c35d-b770-44c4-b9f8-14cb0f04891a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='modal1']</value>
+      <webElementGuid>e6708b66-a1be-4869-92f1-7322c540a5db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{{(list.getTDTooltip(TD.tooltip, obj)) | translate}}'])[8]/following::div[2]</value>
+      <webElementGuid>c9dc9634-e29f-4683-9f15-f9ff42772a38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{{(list.getTDTooltip(TD.tooltip, obj)) | translate}}'])[7]/following::div[4]</value>
+      <webElementGuid>759ec02c-09bf-458e-8047-da7ea63ee4fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[51]</value>
+      <webElementGuid>c1aecbc0-133c-4755-be3a-350565972275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'modal1' and (text() = 'Add Pay Grade Name* Required* Required fieldSave Cancel' or . = 'Add Pay Grade Name* Required* Required fieldSave Cancel')]</value>
+      <webElementGuid>3bf081c5-5257-4489-abee-6f0cdf93fc75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

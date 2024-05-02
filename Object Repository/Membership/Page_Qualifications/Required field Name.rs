@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Required field Name</name>
+   <tag></tag>
+   <elementGuidId>6c88732d-d2d3-4dbf-89e2-f99e64fdc8fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form[name=&quot;membershipsModalForm&quot;] > div.modal-content > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal1']/form/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Name* * Required field&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>31183d27-ee62-483c-95be-50ec0ad849cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sf-schema</name>
+      <type>Main</type>
+      <value>modal.schema</value>
+      <webElementGuid>a9b28c35-0453-4ebe-872c-141845f5dacb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sf-form</name>
+      <type>Main</type>
+      <value>modal.form</value>
+      <webElementGuid>dd280a11-81a0-471f-843c-c7af42c7af9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sf-model</name>
+      <type>Main</type>
+      <value>modal.model</value>
+      <webElementGuid>3ca173d6-7e3e-4bb7-99c2-3cf24f1822ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>extracontroller</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>48523964-3a4c-48c6-bdd6-79d65f1f69b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Name* * Required field</value>
+      <webElementGuid>4d70d3c2-aa7f-4107-bef8-17e31a6447e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal1&quot;)/form[@class=&quot;ng-pristine ng-valid ng-valid-duplication-memberships ng-valid-schema-form&quot;]/div[@class=&quot;modal-content&quot;]/div[1]</value>
+      <webElementGuid>5df71c8f-1290-4e4f-b1ba-ac4b00620932</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal1']/form/div/div</value>
+      <webElementGuid>e20a0c49-c65a-4ca9-ad15-463f15e80ce1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Membership'])[1]/following::div[2]</value>
+      <webElementGuid>8dbce55d-d6ce-4b94-9b19-49ab3bbb46bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::div[4]</value>
+      <webElementGuid>dae14e02-10a1-455f-bd5a-8b13dbd009b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div</value>
+      <webElementGuid>6f31a387-b4d3-406d-b27e-f98e8c83c59f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Name* * Required field' or . = ' Name* * Required field')]</value>
+      <webElementGuid>61e2fc60-f691-481d-b236-e6d6d7b8cdf7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

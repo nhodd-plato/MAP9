@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Create Login Details</name>
+   <tag></tag>
+   <elementGuidId>c183aa6e-a174-45e5-bb4c-0aad863877d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group.col-4 > span.oxd-switch-container > div.custom-control.custom-switch > label.custom-control-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;modal-holder&quot;]/div/div/div/div[2]/form/oxd-decorator/div/div[2]/div/div[5]/div/div/span/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(5) > .form-row > .form-group > .oxd-switch-container > .custom-control > .custom-control-label</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1e295ed5-5dac-4883-9e3f-0fa4c64ad7be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-control-label</value>
+      <webElementGuid>fb6fdb83-5707-44b5-86c0-202b16f399c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>hasLoginDetails</value>
+      <webElementGuid>abe49dd9-744d-44c1-8652-1f6ef2e75a91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-holder&quot;)/div[@class=&quot;modal show&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;generic-oxd-modal-form needs-validation ng-valid ng-valid-file-size ng-valid-file-type ng-valid-schema-form ng-dirty ng-valid-pattern ng-valid-display-input-validity ng-valid-date-range ng-valid-tv4-201 ng-valid-parse ng-valid-tv4-302&quot;]/oxd-decorator[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-group col-8&quot;]/div[@class=&quot;form-row add-employee-details-row&quot;]/div[@class=&quot;form-group col-12&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-group col-4&quot;]/span[@class=&quot;oxd-switch-container&quot;]/div[@class=&quot;custom-control custom-switch&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <webElementGuid>4aa944a9-a2b0-4788-a050-90692d31973e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-holder']/div/div/div/div[2]/form/oxd-decorator/div/div[2]/div/div[5]/div/div/span/div[2]/label</value>
+      <webElementGuid>c7ba1024-8aba-427c-a679-4cd2e93682bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/span/div[2]/label</value>
+      <webElementGuid>16de0550-5900-4f36-a59b-ce709fef957b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
