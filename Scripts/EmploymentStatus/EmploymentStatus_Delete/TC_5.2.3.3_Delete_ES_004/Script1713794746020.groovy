@@ -18,23 +18,23 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/HR Administration Tab'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Job oxd_menu_down'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Job Menu'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Manage Employment Status'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Manage Employment Status Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
 WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_Job/input_Add Employment Status_name'), 'test1')
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Save'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Save Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
 WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_Job/input_Add Employment Status_name'), 'test2')
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Save'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Save Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/label_1'))
 
@@ -42,8 +42,8 @@ WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/label_2'
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_more_horiz'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Delete Selected'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Delete Selected Button'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Yes, Delete'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Yes, Delete Button'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/div_Successfully Deleted'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/Successfully Deleted Pop Up'), 0)

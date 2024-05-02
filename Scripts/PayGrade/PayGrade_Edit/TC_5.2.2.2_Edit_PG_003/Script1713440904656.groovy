@@ -23,11 +23,11 @@ String maxVal = "1,000,000.00"
 
 //Chief Executive Officer has to be the first in the list for this to work
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/HR Administration Tab'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/span_oxd_menu_down'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/a_Manage Pay Grades'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/Manage Pay Grades Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/i_ohrm_edit'))
 

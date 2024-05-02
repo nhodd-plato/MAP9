@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_More  more_vert'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/More Menu dropdown'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/a_oxd_menu_left Qualifications'))
+WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/Qualifications Menu button'))
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_Memberships'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/Memberships Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/i_add'))
 
@@ -30,7 +30,7 @@ randomText = CustomKeywords.'text.generator.RandomString.createRandomString'()
 
 WebUI.setText(findTestObject('Object Repository/Membership/Page_Qualifications/input_Add Membership_name'), randomText)
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/a_Save'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/Save Button'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/i_add'))
 
@@ -38,7 +38,7 @@ randomText2 = CustomKeywords.'text.generator.RandomString.createRandomString'()
 
 WebUI.setText(findTestObject('Object Repository/Membership/Page_Qualifications/input_Add Membership_name'), randomText2)
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/a_Save'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/Save Button'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/label'))
 
@@ -46,11 +46,11 @@ WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/lab
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/i_more_horiz'))
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/a_Delete Selected'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/Delete Selected Button'))
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/a_Yes, Delete'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/Yes, Delete Button'))
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/div_Successfully Deleted'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/Successfully Deleted Pop Up'))
 
 String actualText = WebUI.getText(findTestObject('Object Repository/Membership/Page_Qualifications/span_test'))
 

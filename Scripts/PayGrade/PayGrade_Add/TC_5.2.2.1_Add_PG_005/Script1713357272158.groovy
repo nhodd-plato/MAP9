@@ -20,17 +20,17 @@ import com.kms.katalon.core.util.KeywordUtil
 
 String newTitle = "test"
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/HR Administration Tab'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/a_Job oxd_menu_down'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/Job menu drop down'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/a_Manage Pay Grades'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/Manage Pay Grades Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/i_add'))
 
 WebUI.setText(findTestObject('Object Repository/PayGrade/Page_Job/input_Add Pay Grade_name'), 'test')
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/a_Cancel'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/Cancel Button'))
 
 String expectedTitle = WebUI.getText(findTestObject('Object Repository/PayGrade/Page_Job/td_Chief Executive Officer (C.E.O)'))
 

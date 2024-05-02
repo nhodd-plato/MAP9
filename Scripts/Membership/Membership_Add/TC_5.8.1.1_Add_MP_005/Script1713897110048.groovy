@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_More  more_vert'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/More Menu dropdown'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/a_oxd_menu_left Qualifications'))
+WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/Qualifications Menu button'))
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_Memberships'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/Memberships Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/i_add'))
 
@@ -30,4 +30,4 @@ WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/lab
 
 WebUI.setText(findTestObject('Object Repository/Membership/Page_Qualifications/input_Add Membership_name'), 'Gym Membership')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Membership/Page_Qualifications/span_Already exists'),0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Membership/Page_Qualifications/Already exists'),0)

@@ -20,15 +20,17 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String expectedText = 'Add Employment Status'
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/HR Administration Tab'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/span_oxd_menu_down'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Manage Employment Status'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Manage Employment Status Menu Button'))
 
 WebUI.takeScreenshotAsCheckpoint('Employment Status')
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/h4_Add Employment Status'), 0)
+WebUI.takeScreenshotAsCheckpoint('Employment Status Add')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/Add Employment Status Header'), 0)
 

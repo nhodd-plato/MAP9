@@ -28,6 +28,7 @@ class NewTestListener {
 	def sampleBeforeTestCase() {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://nhodd-trials712.orangehrmlive.com/auth/login')
+		WebUI.takeScreenshotAsCheckpoint('Login')
 		WebUI.setText(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/input_Login_txtUsername'), 'Admin')
 		WebUI.setEncryptedText(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/input_Login_txtPassword'), 'iOv+rK7xq3jhOvWTekEqcg==')
 		WebUI.click(findTestObject('Object Repository/PayGrade/Page_OrangeHRM/button_Login'))

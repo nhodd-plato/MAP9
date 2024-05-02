@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/HR Administration Tab'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/span_oxd_menu_down'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/a_Manage Pay Grades'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/Manage Pay Grades Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/i_add'))
 
@@ -30,11 +30,11 @@ randomText = CustomKeywords.'text.generator.RandomString.createRandomString'()
 
 WebUI.setText(findTestObject('Object Repository/PayGrade/Page_Job/input_Add Pay Grade_name'), randomText)
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/a_Save'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/Save Button'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/i_ohrm_edit'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/button_Assign currency'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/Assign currency Button'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/currencyDropDown'))
 
@@ -44,9 +44,9 @@ WebUI.setText(findTestObject('Object Repository/PayGrade/Page_Job/input__minSala
 
 WebUI.setText(findTestObject('Object Repository/PayGrade/Page_Job/input_Minimum Salary_maxSalary'), '60000')
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/a_Save'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/Save Button'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/button_Assign currency'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/Assign currency Button'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/currencyDropDown'))
 
@@ -56,7 +56,7 @@ WebUI.setText(findTestObject('Object Repository/PayGrade/Page_Job/input__minSala
 
 WebUI.setText(findTestObject('Object Repository/PayGrade/Page_Job/input_Minimum Salary_maxSalary'), '90000')
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/a_Save'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/Save Button'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/PayGrade/Page_Job/button_Assign currency'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/PayGrade/Page_Job/Assign currency Button'), 0)
 

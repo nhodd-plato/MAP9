@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_More  more_vert'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/More Menu dropdown'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/a_oxd_menu_left Qualifications'))
+WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/Qualifications Menu button'))
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_Memberships'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/Memberships Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/i_add'))
 
@@ -32,10 +32,10 @@ randomText = CustomKeywords.'text.generator.RandomString.createRandomString'()
 
 WebUI.setText(findTestObject('Object Repository/Membership/Page_Qualifications/input_Add Membership_name'), randomText)
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/a_Save'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/Save Button'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/i_ohrm_edit'))
 
 WebUI.setText(findTestObject('Object Repository/Membership/Page_Qualifications/input_Add Membership_name'), 'Gym Membership')
 
-WebUI.verifyElementPresent(findTestObject('Membership/Page_Qualifications/span_Already exists'), 0)
+WebUI.verifyElementPresent(findTestObject('Membership/Page_Qualifications/Already exists'), 0)

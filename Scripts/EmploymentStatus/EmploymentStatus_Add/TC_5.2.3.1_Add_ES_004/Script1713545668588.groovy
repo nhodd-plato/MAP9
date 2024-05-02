@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/HR Administration Tab'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Job oxd_menu_down'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Job Menu'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Manage Employment Status'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Manage Employment Status Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
 WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_Job/input_Add Employment Status_name'), 'Test')
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Cancel'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Cancel Button'))
 
 String actualText = WebUI.getText(findTestObject('Object Repository/EmploymentStatus/Page_Job/span_freelance'))
 

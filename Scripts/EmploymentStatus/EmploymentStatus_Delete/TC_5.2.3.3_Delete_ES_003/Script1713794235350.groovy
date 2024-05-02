@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/HR Administration Tab'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Job oxd_menu_down'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Job Menu'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Manage Employment Status'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Manage Employment Status Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
@@ -31,15 +31,15 @@ randomText = CustomKeywords.'text.generator.RandomString.createRandomString'()
 
 WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_Job/input_Add Employment Status_name'), randomText)
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Save'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Save Button'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/label_1'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/label_2'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_more_horiz'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Delete Selected'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Delete Selected Button'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_No, Cancel'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/No, Cancel Button'))
 
 String actualText = WebUI.getText(findTestObject('Object Repository/EmploymentStatus/Page_Job/span_freelance'))
 

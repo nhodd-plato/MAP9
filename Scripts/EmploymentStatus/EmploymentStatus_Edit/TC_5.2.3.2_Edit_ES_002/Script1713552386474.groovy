@@ -20,11 +20,11 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String expectedText = "Edit Employment Status"
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/HR Administration Tab'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Job oxd_menu_down'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Job Menu'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Manage Employment Status'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Manage Employment Status Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_add'))
 
@@ -32,11 +32,11 @@ randomText = CustomKeywords.'text.generator.RandomString.createRandomString'()
 
 WebUI.setText(findTestObject('Object Repository/EmploymentStatus/Page_Job/input_Add Employment Status_name'), randomText)
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Save'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/Save Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/td_ohrm_edit'))
 
-String actualText = WebUI.getText(findTestObject('Object Repository/EmploymentStatus/Page_Job/h4_Edit Employment Status'))
+String actualText = WebUI.getText(findTestObject('Object Repository/EmploymentStatus/Page_Job/Edit Employment Status Header'))
 
 if(actualText != expectedText) {
 	KeywordUtil.markFailed("ERROR: Edit Employment Status modal is not displayed")

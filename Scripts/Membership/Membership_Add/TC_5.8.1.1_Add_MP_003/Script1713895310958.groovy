@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_More  more_vert'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/More Menu dropdown'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/a_oxd_menu_left Qualifications'))
+WebUI.mouseOver(findTestObject('Object Repository/Membership/Page_Employee Management/Qualifications Menu button'))
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/a_Memberships'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Employee Management/Memberships Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/i_add'))
 
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/lab
 
 WebUI.setText(findTestObject('Object Repository/Membership/Page_Qualifications/input_Add Membership_name'), 'test')
 
-WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/a_Cancel'))
+WebUI.click(findTestObject('Object Repository/Membership/Page_Qualifications/Cancel Button'))
 
 String actualText = WebUI.getText(findTestObject('Object Repository/Membership/Page_Qualifications/span_test'))
 

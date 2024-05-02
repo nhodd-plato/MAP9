@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Employee Management/HR Administration Tab'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/a_Job oxd_menu_down'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/Job menu drop down'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/a_Manage Pay Grades'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_HR Administration/Manage Pay Grades Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/i_add'))
 
-WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/div_Add Pay Grade Name  Required fieldSave Cancel'))
+WebUI.click(findTestObject('Object Repository/PayGrade/Page_Job/Add Pay Grade Name Required field'))
 

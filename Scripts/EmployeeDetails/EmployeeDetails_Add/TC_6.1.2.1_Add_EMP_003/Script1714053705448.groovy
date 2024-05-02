@@ -18,10 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/a_Employee List'))
+WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/Employee List Tab'))
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/i_add'))
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/button_Cancel'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/h5_Add Employee'),0)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/Add Employee Header'),0)

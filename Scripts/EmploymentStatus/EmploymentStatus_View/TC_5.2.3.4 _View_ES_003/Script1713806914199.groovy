@@ -18,17 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/span_HR Administration'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Employee Management/HR Administration Tab'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Job oxd_menu_down'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Job Menu'))
 
-WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/a_Manage Employment Status'))
+WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_HR Administration/Manage Employment Status Menu Button'))
 
 WebUI.click(findTestObject('Object Repository/EmploymentStatus/Page_Job/i_ohrm_edit'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/h4_Edit Employment Status'),0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/Edit Employment Status Header'),0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/label_Name'),0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/a_Save'),0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/EmploymentStatus/Page_Job/Save Button'),0)
 

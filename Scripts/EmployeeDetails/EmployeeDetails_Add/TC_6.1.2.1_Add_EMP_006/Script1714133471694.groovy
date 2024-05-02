@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/a_Employee List'))
+WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/Employee List Tab'))
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/i_add'))
 
@@ -34,10 +34,10 @@ WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Mana
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/span_Canadian Development Center'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/select_-- Select --AustraliaAustralia offic_24b8d4'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/select_Austrailia_Office'), 
     'string:2', true)
 
-WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/label_Create Login Details_custom-control-label'))
+WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/label_Create Login Details'))
 
 WebUI.click(findTestObject('Object Repository/EmployeeDetails/Page_Employee Management/button_Next'))
 
