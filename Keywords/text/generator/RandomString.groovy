@@ -46,7 +46,7 @@ class RandomString {
 	def createRandomString() {
 		//the String that our random characters are going to be added to
 		StringBuilder finalString = new StringBuilder()
-		
+
 		//the list of random characters we will use in the string
 		String randomChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
@@ -55,14 +55,14 @@ class RandomString {
 		Random random = new Random()
 
 		//this loops 6 times, and each time a random character gets added to our final string
-		//i.e Loop 1: e 
+		//i.e Loop 1: e
 		//    Loop 2: e1
 		//    Loop 3: e1H
 		for (int i = 0; i < 7; i++) {
 			//this looks kind of complicated but it adds a character to the finalString variable string from the
 			//randomChars list using a random position in the string.
 			//randomChars.lenth() returns the length of the randomChars string which is 62
-			//random.nextInt() generates a random number between 0 and 61 
+			//random.nextInt() generates a random number between 0 and 61
 			//randomChars.charAt() uses the random number to get the character at that position i.e if the number
 			// is 3 then the character would be d (index starts at 0)
 			//finalString.append() adds that letter to the final string
